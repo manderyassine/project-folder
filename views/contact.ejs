@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="/output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white font-sans">
+
+  <nav class="bg-white p-4 text-black">
+    <div class="max-w-7xl mx-auto flex justify-center space-x-6">
+      <a href="/" class="text-lg hover:text-blue-300">Home</a>
+      <a href="/services" class="text-lg hover:text-blue-300">Our Services</a>
+      <a href="/contact" class="text-lg hover:text-blue-300">Contact Us</a>
+    </div>
+  </nav>
+
+  <div class="max-w-3xl mx-auto py-12 text-center">
+    <h1 class="text-3xl font-bold text-gray-800">Contact Us</h1>
+    <p class="mt-4 text-lg text-gray-600">Feel free to reach out to us via email.</p>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="max-w-2xl mx-auto bg-white-800 p-6 rounded-lg">
+    <form action="#" method="POST" class="space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium text-white">Your Name</label>
+        <input type="text" id="name" name="name" class="mt-1 w-full p-3 rounded-lg border border-gray-600 bg-white-900 text-black" placeholder="Enter your name" required>
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-white">Your Email</label>
+        <input type="email" id="email" name="email" class="mt-1 w-full p-3 rounded-lg border border-gray-600 bg-white-900 text-black" placeholder="Enter your email" required>
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium text-white">Your Message</label>
+        <textarea id="message" name="message" rows="4" class="mt-1 w-full p-3 rounded-lg border border-gray-600 bg-white-900 text-black" placeholder="Write your message here..." required></textarea>
+      </div>
+      <div>
+        <button type="submit" class="w-full bg-black hover:bg-black text-white font-medium py-3 rounded-lg">Send Message</button>
+      </div>
+    </form>
+  </div>
+  <br><br><br><br>
+
+  <footer class="footer bg-black text-white">
+    <div class="mx-auto py-8 px-4 flex flex-col items-center">
+      <!-- Social Icons -->
+      <div class="social-icons flex justify-center mt-6">
+        <a href="#" class="mx-2"><img src="https://img.icons8.com/ios-glyphs/30/facebook-new.png" alt="Facebook" /></a>
+        <a href="#" class="mx-2"><img src="https://img.icons8.com/ios-glyphs/30/twitter.png" alt="Twitter" /></a>
+        <a href="https://www.instagram.com/yassin_25456/" class="mx-2"><img src="https://img.icons8.com/ios-glyphs/30/instagram-new.png" alt="Instagram" /></a>
+      </div>
+  
+      <!-- Footer Content -->
+      <div class="footer-left mt-6 text-center">
+        <h2 class="text-xl font-bold">perfect car</h2>
+        <p class="text-sm mt-2">© 2024 perfect car. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
